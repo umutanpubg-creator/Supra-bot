@@ -351,4 +351,5 @@ app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, mesaj_handler))
 app.add_handler(MessageHandler(filters.Document.ALL, mesaj_handler))
 
 print("✅ Bot başlady!")
+
 app.run_polling()
